@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(express.static('image'));
 
 app.listen(3000, () => {
-  console.log('server started');
+  console.log('server started!!');
 });
 
 app.use('/discord', routerBot);
